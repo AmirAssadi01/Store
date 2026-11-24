@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Project</string>
+    <string name="title_activity_home">Home</string>
+    <string name="menu_home">Home</string>
+    <string name="menu_transform">Products</string>
+    <string name="menu_reflow">Cart</string>
+    <string name="menu_admin">Admin</string>
+    <string name="home_title">Welcome to ShopEasy</string>
+    <string name="home_idea_heading">Our Project Idea</string>
+    <string name="home_idea_body">ShopEasy is a simple online store app. Browse products, add products to the cart, and confirm the purchase.</string>
+    <string name="home_contributors_heading">Contributors</string>
+    <string name="contributor_a">A</string>
+    <string name="contributor_m">M</string>
+    <string name="contributor_avatar_desc">Contributor avatar</string>
+</resources>

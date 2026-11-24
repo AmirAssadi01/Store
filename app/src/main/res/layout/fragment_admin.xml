@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="16dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Admin" />
+
+            <ListView
+                android:id="@+id/adminProductsListView"
+                android:layout_width="match_parent"
+                android:layout_height="220dp" />
+
+            <EditText
+                android:id="@+id/productCodeText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Product code"
+                android:inputType="text" />
+
+            <EditText
+                android:id="@+id/productNameText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Product name"
+                android:inputType="text" />
+
+            <EditText
+                android:id="@+id/productPriceText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Price"
+                android:inputType="number" />
+
+            <EditText
+                android:id="@+id/productQuantityText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Quantity"
+                android:inputType="number" />
+
+            <Button
+                android:id="@+id/addProductButton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Add product" />
+
+            <Button
+                android:id="@+id/updateProductButton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Update product" />
+
+            <Button
+                android:id="@+id/deleteProductButton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Delete product" />
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

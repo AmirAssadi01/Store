@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "INSERT_PROJECT_NUMBER",
+    "project_id": "INSERT_PROJECT_ID",
+    "storage_bucket": "INSERT_PROJECT_ID.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "INSERT_MOBILESDK_APP_ID",
+        "android_client_info": {
+          "package_name": "com.example.project"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "INSERT_YOUR_FIREBASE_API_KEY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
